@@ -1,11 +1,11 @@
 {
   "site": {
-    "nom": "Maison Sereine",
+    "nom": "SANTONIS",
     "signature": "La douceur de l’accueil, la rigueur de l’intendance.",
     "telephone": "+33 (0)5 00 00 00 00",
     "email": "contact@maison-sereine.example",
     "zone": "Saintonge & littoral charentais",
-    "copyright": "© 2026 Maison Sereine. Tous droits réservés.",
+    "copyright": "© 2026 SANTONIS. Tous droits réservés.",
     "navigation": [
       {
         "label": "Accueil",
@@ -29,7 +29,7 @@
     "footer_note": "Site vitrine — coordonnées de démonstration à remplacer avant publication."
   },
   "accueil": {
-    "meta_title": "Maison Sereine — Conciergerie de maisons de vacances",
+    "meta_title": "SANTONIS — Conciergerie de maisons de vacances",
     "meta_description": "Conciergerie saisonnière haut de gamme en Saintonge et sur le littoral charentais. Une intendance attentionnée pour les propriétaires et les voyageurs.",
     "hero": {
       "eyebrow": "CONCIERGERIE · SAINTONGE & LITTORAL CHARENTAIS",
@@ -152,8 +152,8 @@
     }
   },
   "services": {
-    "meta_title": "Nos services — Maison Sereine",
-    "meta_description": "Découvrez les services de conciergerie, d’intendance, de ménage et d’accueil voyageurs de Maison Sereine.",
+    "meta_title": "Nos services — SANTONIS",
+    "meta_description": "Découvrez les services de conciergerie, d’intendance, de ménage et d’accueil voyageurs de SANTONIS.",
     "hero": {
       "eyebrow": "UN ACCOMPAGNEMENT SUR MESURE",
       "titre": "Le soin juste,<br>au bon <em>moment.</em>",
@@ -244,8 +244,8 @@
     }
   },
   "a_propos": {
-    "meta_title": "À propos — Maison Sereine",
-    "meta_description": "L’approche humaine et locale de Maison Sereine, conciergerie de location saisonnière en Saintonge et sur le littoral charentais.",
+    "meta_title": "À propos — SANTONIS",
+    "meta_description": "L’approche humaine et locale de SANTONIS, conciergerie de location saisonnière en Saintonge et sur le littoral charentais.",
     "hero": {
       "eyebrow": "UNE MAISON, UNE HISTOIRE, UNE ATTENTION",
       "titre": "L’humain au cœur<br>de chaque <em>séjour.</em>",
@@ -257,12 +257,12 @@
       "eyebrow": "NOTRE HISTOIRE",
       "titre": "Une présence locale, sincère et engagée.",
       "paragraphes": [
-        "Maison Sereine est née d’une conviction simple : une location réussie commence bien avant l’arrivée des voyageurs. Elle se construit dans les détails, la confiance et la régularité.",
+        "SANTONIS est née d’une conviction simple : une location réussie commence bien avant l’arrivée des voyageurs. Elle se construit dans les détails, la confiance et la régularité.",
         "Notre mission est de créer un lien fiable entre les propriétaires et les personnes qui séjournent dans leur maison. Nous privilégions les échanges directs, les habitudes bien comprises et le travail bien fait.",
         "Chaque bien est différent. C’est pourquoi nous prenons le temps de comprendre son caractère et les attentes de celles et ceux qui nous le confient."
       ],
       "nom": "Camille",
-      "fonction": "Fondatrice de Maison Sereine",
+      "fonction": "Fondatrice de SANTONIS",
       "portrait": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1100&q=85",
       "portrait_alt": "Portrait professionnel d’une femme dans un environnement lumineux",
       "note": "Portrait illustratif de démonstration, à remplacer par la photo réelle de la gérante."
@@ -297,8 +297,8 @@
     }
   },
   "contact": {
-    "meta_title": "Contact — Maison Sereine",
-    "meta_description": "Contactez Maison Sereine pour parler de votre location saisonnière, de votre maison ou de votre prochain séjour.",
+    "meta_title": "Contact — SANTONIS",
+    "meta_description": "Contactez SANTONIS pour parler de votre location saisonnière, de votre maison ou de votre prochain séjour.",
     "hero": {
       "eyebrow": "LE PREMIER ÉCHANGE",
       "titre": "Parlons de votre<br><em>projet.</em>",
