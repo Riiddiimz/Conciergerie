@@ -130,3 +130,30 @@ input[type=checkbox]{accent-color:var(--ardoise)}
  .manifesto-image{width:calc(100% - 1rem)}
  .image-stamp{right:0}
 }
+
+
+/* ===== CORRECTIONS DE CONTRASTE — Ardoise & Lin Doré ===== */
+
+/* Footer sur fond Lin : textes assombris */
+.footer-brand > p {
+  color: rgba(44, 48, 50, .7);
+}
+.footer-links,
+.footer-contact {
+  color: var(--ardoise);
+}
+.footer-label {
+  color: var(--ardoise);
+}
+.footer-bottom {
+  color: rgba(44, 48, 50, .55);
+}
+
+/* Numéros et guillemets : ocre foncé pour respecter le contraste AA */
+.step-number,
+.offer-number,
+.quote-mark,
+.contact-detail-label,
+.text-link:after {
+  color: #A8894F;
+}
