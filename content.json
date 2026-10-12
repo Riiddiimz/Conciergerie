@@ -71,8 +71,8 @@
         "numero": "01",
         "titre": "Intendance complète",
         "description": "Une maison prête à vivre, suivie avec méthode et délicatesse tout au long de la saison.",
-        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85",
-        "alt": "Intérieur de maison de vacances baigné de lumière"
+        "image": "https://images.unsplash.com/photo-1630219052855-61fa11535fdd?auto=format&fit=crop&fm=webp&w=1200&q=82",
+        "alt": "Maison de vacances sur l’Île de Ré, avec sa façade claire et son entrée"
       },
       {
         "numero": "02",
@@ -135,12 +135,16 @@
       {
         "citation": "Une présence rassurante et des échanges toujours simples. Nous savons que la maison est entre de bonnes mains.",
         "auteur": "Claire & Julien",
-        "role": "Propriétaires — témoignage de démonstration"
+        "role": "Propriétaires — témoignage de démonstration",
+        "portrait": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&fm=webp&w=160&q=75",
+        "portrait_alt": "Portrait illustratif, ne représentant pas les clients cités"
       },
       {
         "citation": "L’accueil était attentionné, la maison impeccable et les conseils locaux vraiment précieux.",
         "auteur": "Élodie M.",
-        "role": "Voyageuse — témoignage de démonstration"
+        "role": "Voyageuse — témoignage de démonstration",
+        "portrait": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&fm=webp&w=160&q=75",
+        "portrait_alt": "Portrait illustratif, ne représentant pas la voyageuse citée"
       }
     ],
     "cta_final": {
