@@ -97,8 +97,8 @@
       }
     ],
     "manifeste": {
-      "eyebrow": "L’ESPRIT MAISON SEREINE",
-      "titre": "Prendre soin d’une maison, c’est aussi prendre soin de son histoire.",
+      "eyebrow": "L’ESPRIT SANTONIS",
+      "titre": "Prendre soin d’une maison, c’est aussi respecter son histoire.",
       "texte": "Nous croyons aux attentions discrètes, aux maisons respectées et aux relations simples. Notre rôle est de faire le lien entre votre bien, vos attentes et les personnes qui y créent leurs souvenirs.",
       "signature": "La sérénité, jusque dans les détails.",
       "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=88",
@@ -129,7 +129,7 @@
     "temoignages_section": {
       "eyebrow": "ILS NOUS FONT CONFIANCE",
       "titre": "La confiance se construit au quotidien.",
-      "note": "Exemples de témoignages de démonstration, à remplacer par des avis authentiques."
+      "note": "Les avis affichés ci-dessous sont des exemples de démonstration et devront être remplacés par des témoignages authentiques avant publication."
     },
     "temoignages": [
       {
