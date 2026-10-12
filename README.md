@@ -1,4 +1,4 @@
-# Maison Sereine — site vitrine de conciergerie
+# SANTONIS — site vitrine de conciergerie
 
 Site vitrine statique en HTML, CSS et JavaScript natifs, pensé pour une conciergerie de location saisonnière premium.
 
