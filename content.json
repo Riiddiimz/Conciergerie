@@ -7,10 +7,22 @@
     "zone": "Saintonge & littoral charentais",
     "copyright": "© 2026 Maison Sereine. Tous droits réservés.",
     "navigation": [
-      {"label":"Accueil","href":"index.html"},
-      {"label":"Nos services","href":"services.html"},
-      {"label":"À propos","href":"a-propos.html"},
-      {"label":"Contact","href":"contact.html"}
+      {
+        "label": "Accueil",
+        "href": "index.html"
+      },
+      {
+        "label": "Nos services",
+        "href": "services.html"
+      },
+      {
+        "label": "À propos",
+        "href": "a-propos.html"
+      },
+      {
+        "label": "Contact",
+        "href": "contact.html"
+      }
     ],
     "cta": "Parlons de votre projet",
     "footer_intro": "Une présence attentive pour votre maison, un séjour sans fausse note pour vos voyageurs.",
@@ -33,90 +45,323 @@
     "confiance": {
       "intro": "L’exigence dans les détails, la sérénité au quotidien.",
       "chiffres": [
-        {"valeur":"7j/7","label":"présence et réactivité"},
-        {"valeur":"100 %","label":"attention personnalisée"},
-        {"valeur":"1 seul","label":"interlocuteur dédié"}
+        {
+          "valeur": "7j/7",
+          "label": "présence et réactivité"
+        },
+        {
+          "valeur": "100 %",
+          "label": "attention personnalisée"
+        },
+        {
+          "valeur": "1 seul",
+          "label": "interlocuteur dédié"
+        }
       ]
     },
     "services_section": {
-      "eyebrow":"NOS SAVOIR-FAIRE",
-      "titre":"La tranquillité se joue dans les détails.",
-      "intro":"De la préparation de la maison au dernier mot échangé avec vos hôtes, chaque étape est pensée pour être simple, fluide et soignée.",
-      "lien":"Découvrir tous nos services",
-      "href":"services.html"
+      "eyebrow": "NOS SAVOIR-FAIRE",
+      "titre": "La tranquillité se joue dans les détails.",
+      "intro": "De la préparation de la maison au dernier mot échangé avec vos hôtes, chaque étape est pensée pour être simple, fluide et soignée.",
+      "lien": "Découvrir tous nos services",
+      "href": "services.html"
     },
     "services": [
-      {"numero":"01","titre":"Intendance complète","description":"Une maison prête à vivre, suivie avec méthode et délicatesse tout au long de la saison.","image":"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85","alt":"Intérieur de maison de vacances baigné de lumière"},
-      {"numero":"02","titre":"Accueil des voyageurs","description":"Une arrivée chaleureuse, des informations claires et une présence disponible en cas de besoin.","image":"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85","alt":"Salon accueillant aux tons naturels"},
-      {"numero":"03","titre":"Ménage & préparation","description":"Des pièces impeccables, du linge frais et une attention constante à la qualité des finitions.","image":"https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85","alt":"Cuisine soignée aux matières naturelles"},
-      {"numero":"04","titre":"Expérience locale","description":"Des recommandations choisies pour découvrir le territoire à son rythme, loin des itinéraires impersonnels.","image":"https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1000&q=85","alt":"Maison de campagne entourée de verdure"}
+      {
+        "numero": "01",
+        "titre": "Intendance complète",
+        "description": "Une maison prête à vivre, suivie avec méthode et délicatesse tout au long de la saison.",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Intérieur de maison de vacances baigné de lumière"
+      },
+      {
+        "numero": "02",
+        "titre": "Accueil des voyageurs",
+        "description": "Une arrivée chaleureuse, des informations claires et une présence disponible en cas de besoin.",
+        "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Salon accueillant aux tons naturels"
+      },
+      {
+        "numero": "03",
+        "titre": "Ménage & préparation",
+        "description": "Des pièces impeccables, du linge frais et une attention constante à la qualité des finitions.",
+        "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Cuisine soignée aux matières naturelles"
+      },
+      {
+        "numero": "04",
+        "titre": "Expérience locale",
+        "description": "Des recommandations choisies pour découvrir le territoire à son rythme, loin des itinéraires impersonnels.",
+        "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Maison de campagne entourée de verdure"
+      }
     ],
     "manifeste": {
-      "eyebrow":"L’ESPRIT MAISON SEREINE",
-      "titre":"Prendre soin d’une maison, c’est aussi prendre soin de son histoire.",
-      "texte":"Nous croyons aux attentions discrètes, aux maisons respectées et aux relations simples. Notre rôle est de faire le lien entre votre bien, vos attentes et les personnes qui y créent leurs souvenirs.",
-      "signature":"La sérénité, jusque dans les détails.",
-      "image":"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=88",
-      "image_alt":"Maison chaleureuse ouverte sur un jardin méditerranéen"
+      "eyebrow": "L’ESPRIT MAISON SEREINE",
+      "titre": "Prendre soin d’une maison, c’est aussi prendre soin de son histoire.",
+      "texte": "Nous croyons aux attentions discrètes, aux maisons respectées et aux relations simples. Notre rôle est de faire le lien entre votre bien, vos attentes et les personnes qui y créent leurs souvenirs.",
+      "signature": "La sérénité, jusque dans les détails.",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=88",
+      "image_alt": "Maison chaleureuse ouverte sur un jardin méditerranéen"
     },
     "etapes_section": {
-      "eyebrow":"COMMENT ÇA SE PASSE",
-      "titre":"Trois étapes. Un esprit tranquille.",
-      "intro":"Un accompagnement clair, du premier échange à chaque séjour."
+      "eyebrow": "COMMENT ÇA SE PASSE",
+      "titre": "Trois étapes. Un esprit tranquille.",
+      "intro": "Un accompagnement clair, du premier échange à chaque séjour."
     },
     "etapes": [
-      {"numero":"01","titre":"Nous faisons connaissance","description":"Nous échangeons sur votre maison, vos objectifs et le niveau d’accompagnement souhaité."},
-      {"numero":"02","titre":"Nous préparons chaque détail","description":"Nous définissons ensemble les habitudes, les standards et les attentions qui vous ressemblent."},
-      {"numero":"03","titre":"Nous veillons sur la suite","description":"Nous coordonnons les séjours et l’intendance pour vous offrir une vision claire et sereine."}
+      {
+        "numero": "01",
+        "titre": "Nous faisons connaissance",
+        "description": "Nous échangeons sur votre maison, vos objectifs et le niveau d’accompagnement souhaité."
+      },
+      {
+        "numero": "02",
+        "titre": "Nous préparons chaque détail",
+        "description": "Nous définissons ensemble les habitudes, les standards et les attentions qui vous ressemblent."
+      },
+      {
+        "numero": "03",
+        "titre": "Nous veillons sur la suite",
+        "description": "Nous coordonnons les séjours et l’intendance pour vous offrir une vision claire et sereine."
+      }
     ],
     "temoignages_section": {
-      "eyebrow":"ILS NOUS FONT CONFIANCE",
-      "titre":"La confiance se construit au quotidien.",
-      "note":"Exemples de témoignages de démonstration, à remplacer par des avis authentiques."
+      "eyebrow": "ILS NOUS FONT CONFIANCE",
+      "titre": "La confiance se construit au quotidien.",
+      "note": "Exemples de témoignages de démonstration, à remplacer par des avis authentiques."
     },
     "temoignages": [
-      {"citation":"Une présence rassurante et des échanges toujours simples. Nous savons que la maison est entre de bonnes mains.","auteur":"Claire & Julien","role":"Propriétaires — témoignage de démonstration"},
-      {"citation":"L’accueil était attentionné, la maison impeccable et les conseils locaux vraiment précieux.","auteur":"Élodie M.","role":"Voyageuse — témoignage de démonstration"}
+      {
+        "citation": "Une présence rassurante et des échanges toujours simples. Nous savons que la maison est entre de bonnes mains.",
+        "auteur": "Claire & Julien",
+        "role": "Propriétaires — témoignage de démonstration"
+      },
+      {
+        "citation": "L’accueil était attentionné, la maison impeccable et les conseils locaux vraiment précieux.",
+        "auteur": "Élodie M.",
+        "role": "Voyageuse — témoignage de démonstration"
+      }
     ],
     "cta_final": {
-      "eyebrow":"VOTRE PROJET COMMENCE ICI",
-      "titre":"Et si votre maison était entre de bonnes mains ?",
-      "texte":"Parlons de votre bien, de vos envies et de la façon dont nous pouvons vous simplifier la vie.",
-      "bouton":"Échanger avec nous",
-      "href":"contact.html"
+      "eyebrow": "VOTRE PROJET COMMENCE ICI",
+      "titre": "Et si votre maison était entre de bonnes mains ?",
+      "texte": "Parlons de votre bien, de vos envies et de la façon dont nous pouvons vous simplifier la vie.",
+      "bouton": "Échanger avec nous",
+      "href": "contact.html"
     }
   },
   "services": {
-    "meta_title":"Nos services — Maison Sereine",
-    "meta_description":"Découvrez les services de conciergerie, d’intendance, de ménage et d’accueil voyageurs de Maison Sereine.",
-    "hero":{"eyebrow":"UN ACCOMPAGNEMENT SUR MESURE","titre":"Le soin juste,<br>au bon <em>moment.</em>","intro":"Une offre souple et transparente, adaptée à votre maison, à votre rythme et aux attentes de vos voyageurs.","image":"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=88","alt":"Maison lumineuse aux finitions soignées"},
-    "intro":{"eyebrow":"NOS PRESTATIONS","titre":"Votre maison mérite une attention constante.","texte":"Choisissez un accompagnement complet ou les services dont vous avez réellement besoin. Nous construisons avec vous une organisation claire, sans superflu."},
-    "offres":[
-      {"numero":"01","titre":"Conciergerie complète","description":"Coordination des séjours, préparation du logement, accueil, suivi des voyageurs et gestion des imprévus du quotidien.","details":["Organisation des arrivées et départs","Coordination des prestations","Suivi et compte rendu au propriétaire"]},
-      {"numero":"02","titre":"Intendance de la maison","description":"Une présence attentive entre deux locations et tout au long de la saison pour préserver votre bien.","details":["Visites de contrôle selon accord","Aération et vérifications visuelles","Signalement des besoins d’intervention"]},
-      {"numero":"03","titre":"Ménage & linge","description":"Une remise en état soignée pour offrir une expérience constante, jusque dans les détails qui se remarquent.","details":["Préparation des pièces","Contrôle de propreté","Coordination du linge et des consommables"]},
-      {"numero":"04","titre":"Accueil des voyageurs","description":"Une arrivée fluide et chaleureuse, avec les informations utiles pour profiter du logement et de la région.","details":["Accueil selon modalités convenues","Présentation du logement","Assistance de premier niveau pendant le séjour"]},
-      {"numero":"05","titre":"Conseils & expérience locale","description":"Des recommandations adaptées à chaque séjour pour découvrir les bonnes adresses et les petits trésors du territoire.","details":["Carnet d’adresses local","Suggestions selon les envies","Informations pratiques avant l’arrivée"]}
+    "meta_title": "Nos services — Maison Sereine",
+    "meta_description": "Découvrez les services de conciergerie, d’intendance, de ménage et d’accueil voyageurs de Maison Sereine.",
+    "hero": {
+      "eyebrow": "UN ACCOMPAGNEMENT SUR MESURE",
+      "titre": "Le soin juste,<br>au bon <em>moment.</em>",
+      "intro": "Une offre souple et transparente, adaptée à votre maison, à votre rythme et aux attentes de vos voyageurs.",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=88",
+      "alt": "Maison lumineuse aux finitions soignées"
+    },
+    "intro": {
+      "eyebrow": "NOS PRESTATIONS",
+      "titre": "Votre maison mérite une attention constante.",
+      "texte": "Choisissez un accompagnement complet ou les services dont vous avez réellement besoin. Nous construisons avec vous une organisation claire, sans superflu."
+    },
+    "offres": [
+      {
+        "numero": "01",
+        "titre": "Conciergerie complète",
+        "description": "Coordination des séjours, préparation du logement, accueil, suivi des voyageurs et gestion des imprévus du quotidien.",
+        "details": [
+          "Organisation des arrivées et départs",
+          "Coordination des prestations",
+          "Suivi et compte rendu au propriétaire"
+        ]
+      },
+      {
+        "numero": "02",
+        "titre": "Intendance de la maison",
+        "description": "Une présence attentive entre deux locations et tout au long de la saison pour préserver votre bien.",
+        "details": [
+          "Visites de contrôle selon accord",
+          "Aération et vérifications visuelles",
+          "Signalement des besoins d’intervention"
+        ]
+      },
+      {
+        "numero": "03",
+        "titre": "Ménage & linge",
+        "description": "Une remise en état soignée pour offrir une expérience constante, jusque dans les détails qui se remarquent.",
+        "details": [
+          "Préparation des pièces",
+          "Contrôle de propreté",
+          "Coordination du linge et des consommables"
+        ]
+      },
+      {
+        "numero": "04",
+        "titre": "Accueil des voyageurs",
+        "description": "Une arrivée fluide et chaleureuse, avec les informations utiles pour profiter du logement et de la région.",
+        "details": [
+          "Accueil selon modalités convenues",
+          "Présentation du logement",
+          "Assistance de premier niveau pendant le séjour"
+        ]
+      },
+      {
+        "numero": "05",
+        "titre": "Conseils & expérience locale",
+        "description": "Des recommandations adaptées à chaque séjour pour découvrir les bonnes adresses et les petits trésors du territoire.",
+        "details": [
+          "Carnet d’adresses local",
+          "Suggestions selon les envies",
+          "Informations pratiques avant l’arrivée"
+        ]
+      }
     ],
-    "proprietaires":{"eyebrow":"POUR LES PROPRIÉTAIRES","titre":"Vous gardez la maîtrise. Nous prenons le relais sur le terrain.","texte":"Nous définissons ensemble le périmètre de notre intervention, les standards attendus et la fréquence des échanges. Chaque mission est cadrée avant de commencer.","bouton":"Parler de mon logement","href":"contact.html?profil=proprietaire","image":"https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85","alt":"Pièce de vie raffinée préparée pour accueillir des hôtes"},
-    "voyageurs":{"eyebrow":"POUR LES VOYAGEURS","titre":"Arriver, souffler, profiter.","texte":"Une maison prête à vous accueillir, des consignes faciles à suivre et des recommandations locales pour vivre pleinement votre séjour.","bouton":"Préparer mon séjour","href":"contact.html?profil=voyageur","image":"https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1400&q=85","alt":"Espace de détente lumineux dans une maison de vacances"},
-    "cta":{"titre":"Chaque maison a ses habitudes. Parlons des vôtres.","texte":"Nous composons une prestation claire, adaptée à vos besoins et à votre calendrier.","bouton":"Construire mon accompagnement","href":"contact.html"}
+    "proprietaires": {
+      "eyebrow": "POUR LES PROPRIÉTAIRES",
+      "titre": "Vous gardez la maîtrise. Nous prenons le relais sur le terrain.",
+      "texte": "Nous définissons ensemble le périmètre de notre intervention, les standards attendus et la fréquence des échanges. Chaque mission est cadrée avant de commencer.",
+      "bouton": "Parler de mon logement",
+      "href": "contact.html?profil=proprietaire",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
+      "alt": "Pièce de vie raffinée préparée pour accueillir des hôtes"
+    },
+    "voyageurs": {
+      "eyebrow": "POUR LES VOYAGEURS",
+      "titre": "Arriver, souffler, profiter.",
+      "texte": "Une maison prête à vous accueillir, des consignes faciles à suivre et des recommandations locales pour vivre pleinement votre séjour.",
+      "bouton": "Préparer mon séjour",
+      "href": "contact.html?profil=voyageur",
+      "image": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1400&q=85",
+      "alt": "Espace de détente lumineux dans une maison de vacances"
+    },
+    "cta": {
+      "titre": "Chaque maison a ses habitudes. Parlons des vôtres.",
+      "texte": "Nous composons une prestation claire, adaptée à vos besoins et à votre calendrier.",
+      "bouton": "Construire mon accompagnement",
+      "href": "contact.html"
+    }
   },
-  "a_propos":{
-    "meta_title":"À propos — Maison Sereine",
-    "meta_description":"L’approche humaine et locale de Maison Sereine, conciergerie de location saisonnière en Saintonge et sur le littoral charentais.",
-    "hero":{"eyebrow":"UNE MAISON, UNE HISTOIRE, UNE ATTENTION","titre":"L’humain au cœur<br>de chaque <em>séjour.</em>","intro":"Une conciergerie indépendante, guidée par le sens de l’accueil, le respect des lieux et l’amour du territoire.","image":"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=88","alt":"Intérieur accueillant aux matières naturelles"},
-    "histoire":{"eyebrow":"NOTRE HISTOIRE","titre":"Une présence locale, sincère et engagée.","paragraphes":["Maison Sereine est née d’une conviction simple : une location réussie commence bien avant l’arrivée des voyageurs. Elle se construit dans les détails, la confiance et la régularité.","Notre mission est de créer un lien fiable entre les propriétaires et les personnes qui séjournent dans leur maison. Nous privilégions les échanges directs, les habitudes bien comprises et le travail bien fait.","Chaque bien est différent. C’est pourquoi nous prenons le temps de comprendre son caractère et les attentes de celles et ceux qui nous le confient."],"nom":"Camille","fonction":"Fondatrice de Maison Sereine","portrait":"https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1100&q=85","portrait_alt":"Portrait professionnel d’une femme dans un environnement lumineux","note":"Portrait illustratif de démonstration, à remplacer par la photo réelle de la gérante."},
-    "valeurs":[{"titre":"La confiance","texte":"Des engagements clairs, une communication directe et un suivi sans surprise."},{"titre":"Le sens du détail","texte":"Une préparation rigoureuse et des gestes discrets qui changent l’expérience."},{"titre":"L’ancrage local","texte":"Une connaissance du territoire et des partenaires choisis avec attention."}],
-    "zone":{"eyebrow":"NOTRE TERRITOIRE","titre":"De la Saintonge au littoral charentais.","texte":"Nous privilégions un périmètre d’intervention cohérent pour rester disponibles, réactifs et proches des maisons que nous accompagnons.","adresse":"Saintonge & littoral charentais, Charente-Maritime","carte_url":"https://www.openstreetmap.org/export/embed.html?bbox=-1.35%2C45.45%2C-0.45%2C46.25&layer=mapnik","carte_titre":"Carte indicative de la zone d’intervention en Charente-Maritime"},
-    "cta":{"titre":"Faisons connaissance.","texte":"Racontez-nous votre projet et ce que vous attendez d’une conciergerie de confiance.","bouton":"Nous contacter","href":"contact.html"}
+  "a_propos": {
+    "meta_title": "À propos — Maison Sereine",
+    "meta_description": "L’approche humaine et locale de Maison Sereine, conciergerie de location saisonnière en Saintonge et sur le littoral charentais.",
+    "hero": {
+      "eyebrow": "UNE MAISON, UNE HISTOIRE, UNE ATTENTION",
+      "titre": "L’humain au cœur<br>de chaque <em>séjour.</em>",
+      "intro": "Une conciergerie indépendante, guidée par le sens de l’accueil, le respect des lieux et l’amour du territoire.",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=88",
+      "alt": "Intérieur accueillant aux matières naturelles"
+    },
+    "histoire": {
+      "eyebrow": "NOTRE HISTOIRE",
+      "titre": "Une présence locale, sincère et engagée.",
+      "paragraphes": [
+        "Maison Sereine est née d’une conviction simple : une location réussie commence bien avant l’arrivée des voyageurs. Elle se construit dans les détails, la confiance et la régularité.",
+        "Notre mission est de créer un lien fiable entre les propriétaires et les personnes qui séjournent dans leur maison. Nous privilégions les échanges directs, les habitudes bien comprises et le travail bien fait.",
+        "Chaque bien est différent. C’est pourquoi nous prenons le temps de comprendre son caractère et les attentes de celles et ceux qui nous le confient."
+      ],
+      "nom": "Camille",
+      "fonction": "Fondatrice de Maison Sereine",
+      "portrait": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1100&q=85",
+      "portrait_alt": "Portrait professionnel d’une femme dans un environnement lumineux",
+      "note": "Portrait illustratif de démonstration, à remplacer par la photo réelle de la gérante."
+    },
+    "valeurs": [
+      {
+        "titre": "La confiance",
+        "texte": "Des engagements clairs, une communication directe et un suivi sans surprise."
+      },
+      {
+        "titre": "Le sens du détail",
+        "texte": "Une préparation rigoureuse et des gestes discrets qui changent l’expérience."
+      },
+      {
+        "titre": "L’ancrage local",
+        "texte": "Une connaissance du territoire et des partenaires choisis avec attention."
+      }
+    ],
+    "zone": {
+      "eyebrow": "NOTRE TERRITOIRE",
+      "titre": "De la Saintonge au littoral charentais.",
+      "texte": "Nous privilégions un périmètre d’intervention cohérent pour rester disponibles, réactifs et proches des maisons que nous accompagnons.",
+      "adresse": "Saintonge & littoral charentais, Charente-Maritime",
+      "carte_url": "https://www.openstreetmap.org/export/embed.html?bbox=-1.35%2C45.45%2C-0.45%2C46.25&layer=mapnik",
+      "carte_titre": "Carte indicative de la zone d’intervention en Charente-Maritime"
+    },
+    "cta": {
+      "titre": "Faisons connaissance.",
+      "texte": "Racontez-nous votre projet et ce que vous attendez d’une conciergerie de confiance.",
+      "bouton": "Nous contacter",
+      "href": "contact.html"
+    }
   },
-  "contact":{
-    "meta_title":"Contact — Maison Sereine",
-    "meta_description":"Contactez Maison Sereine pour parler de votre location saisonnière, de votre maison ou de votre prochain séjour.",
-    "hero":{"eyebrow":"LE PREMIER ÉCHANGE","titre":"Parlons de votre<br><em>projet.</em>","intro":"Une question, une maison à confier ou un séjour à préparer ? Écrivez-nous, nous prendrons le temps de vous répondre.","image":"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=88","alt":"Maison de vacances accueillante et lumineuse"},
-    "formulaire":{"eyebrow":"ÉCRIVEZ-NOUS","titre":"Quelques mots suffisent.","intro":"Présentez-nous votre besoin. Les champs marqués d’un astérisque sont obligatoires.","nom":"Nom et prénom *","email":"Adresse e-mail *","telephone":"Téléphone","profil_label":"Je vous contacte en tant que","profil_options":[{"label":"Propriétaire","value":"Propriétaire"},{"label":"Voyageur","value":"Voyageur"},{"label":"Partenaire","value":"Partenaire"},{"label":"Autre demande","value":"Autre demande"}],"message":"Votre message *","consentement":"J’accepte que les informations saisies soient utilisées pour répondre à ma demande.","bouton":"Préparer mon e-mail","aide":"Ce formulaire ouvre votre application de messagerie. Aucun message n’est envoyé à notre insu.","succes":"Votre application de messagerie va s’ouvrir avec votre demande préparée.","erreur":"Merci de vérifier les champs obligatoires et votre adresse e-mail."},
-    "coordonnees":{"titre":"Restons en contact.","email_label":"E-mail","telephone_label":"Téléphone","zone_label":"Zone d’intervention","horaires_label":"Disponibilité","horaires":"Sur rendez-vous, du lundi au samedi. Assistance voyageurs selon les modalités convenues."},
-    "cta":{"titre":"Vous préférez un échange direct ?","texte":"Laissez-nous quelques informations et nous reviendrons vers vous pour convenir d’un moment adapté.","bouton":"Décrire mon projet","href":"#formulaire"}
+  "contact": {
+    "meta_title": "Contact — Maison Sereine",
+    "meta_description": "Contactez Maison Sereine pour parler de votre location saisonnière, de votre maison ou de votre prochain séjour.",
+    "hero": {
+      "eyebrow": "LE PREMIER ÉCHANGE",
+      "titre": "Parlons de votre<br><em>projet.</em>",
+      "intro": "Une question, une maison à confier ou un séjour à préparer ? Écrivez-nous, nous prendrons le temps de vous répondre.",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=88",
+      "alt": "Maison de vacances accueillante et lumineuse"
+    },
+    "formulaire": {
+      "eyebrow": "ÉCRIVEZ-NOUS",
+      "titre": "Quelques mots suffisent.",
+      "intro": "Présentez-nous votre besoin. Les champs marqués d’un astérisque sont obligatoires.",
+      "nom": "Nom et prénom *",
+      "email": "Adresse e-mail *",
+      "telephone": "Téléphone",
+      "profil_label": "Je vous contacte en tant que",
+      "profil_options": [
+        {
+          "label": "Propriétaire",
+          "value": "Propriétaire"
+        },
+        {
+          "label": "Voyageur",
+          "value": "Voyageur"
+        },
+        {
+          "label": "Partenaire",
+          "value": "Partenaire"
+        },
+        {
+          "label": "Autre demande",
+          "value": "Autre demande"
+        }
+      ],
+      "message": "Votre message *",
+      "consentement": "J’accepte que les informations saisies soient utilisées pour répondre à ma demande.",
+      "bouton": "Préparer mon e-mail",
+      "aide": "Ce formulaire ouvre votre application de messagerie. Aucun message n’est envoyé à notre insu.",
+      "succes": "Votre application de messagerie va s’ouvrir avec votre demande préparée.",
+      "erreur": "Merci de vérifier les champs obligatoires et votre adresse e-mail."
+    },
+    "coordonnees": {
+      "titre": "Restons en contact.",
+      "email_label": "E-mail",
+      "telephone_label": "Téléphone",
+      "zone_label": "Zone d’intervention",
+      "horaires_label": "Disponibilité",
+      "horaires": "Sur rendez-vous, du lundi au samedi. Assistance voyageurs selon les modalités convenues."
+    },
+    "cta": {
+      "titre": "Vous préférez un échange direct ?",
+      "texte": "Laissez-nous quelques informations et nous reviendrons vers vous pour convenir d’un moment adapté.",
+      "bouton": "Décrire mon projet",
+      "href": "#formulaire"
+    }
+  },
+  "accessibilite": {
+    "lien": "Aller au contenu principal",
+    "menu": "Ouvrir ou fermer le menu de navigation",
+    "ouvrir_menu": "Menu",
+    "defiler": "Défiler pour découvrir",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "nos_valeurs": "NOS ENGAGEMENTS",
+    "valeurs_titre": "Des principes simples, des gestes qui comptent."
   }
 }
