@@ -83,3 +83,77 @@ input[type=checkbox]{accent-color:var(--ardoise)}
  .service-card:nth-child(n+2) .service-image-wrap{height:clamp(230px,65vw,330px)}.manifesto-image{transform:none}
 }
 @media(max-width:390px){.brand-logo{max-width:220px;max-height:68px}}
+
+
+/* Corrections audit visuel — hiérarchie, accent ocre, territoire et responsive */
+.trust-strip{background:var(--ocre);color:var(--ardoise);padding:2.4rem var(--gutter);gap:2rem}
+.trust-intro{color:var(--ardoise);max-width:420px}
+.trust-stat{border-left-color:rgba(44,48,50,.24)}
+.trust-stat strong{color:var(--ardoise);font-size:clamp(2.5rem,4vw,3.7rem)}
+.trust-stat span{color:rgba(44,48,50,.88)}
+.hero h1{font-size:clamp(3rem,7vw,7rem)}
+.manifesto{overflow:visible;position:relative}
+.manifesto-image{transform:translate(-40px,-1rem);z-index:2}
+.manifesto-copy{position:relative;z-index:1}
+.manifesto h2{font-size:clamp(3.1rem,5.2vw,5rem);max-width:650px}
+.image-stamp{color:var(--ardoise);background:var(--ocre)}
+.card-number{color:var(--lin);background:var(--ardoise)}
+.site-footer{border-top:3px solid var(--ocre)}
+.final-cta{color:var(--ardoise)}
+.final-cta .eyebrow{color:var(--ardoise)}
+.final-cta>p:not(.eyebrow){color:rgba(44,48,50,.9)}
+.final-cta .button-light{background:var(--ardoise);border-color:var(--ardoise);color:var(--lin)}
+.testimonial-card figcaption{flex-direction:row;align-items:center;gap:.9rem;flex-wrap:wrap}
+.testimonial-avatar{width:64px;height:64px;flex:0 0 64px;border-radius:50%;object-fit:cover;border:2px solid var(--ocre)}
+.testimonial-identity{display:flex;flex-direction:column}
+@media(min-width:761px){
+ .trust-stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .manifesto-image{margin-left:0}
+}
+@media(max-width:760px){
+ .trust-strip{padding:2rem var(--gutter);gap:1.3rem}
+ .trust-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+ .trust-stat{padding:.35rem .55rem;border-left:1px solid rgba(44,48,50,.22)}
+ .trust-stat:first-child{border-left:0;padding-left:0}
+ .trust-stat strong{font-size:clamp(1.1rem,4.5vw,1.6rem);line-height:1.15}
+ .trust-stat span{font-size:.62rem;line-height:1.35}
+ .hero h1{font-size:clamp(3rem,12vw,5.5rem)}
+ .manifesto{overflow:hidden}
+ .manifesto-image{transform:none;width:calc(100% - .8rem);margin-left:0}
+ .manifesto h2{font-size:clamp(2.7rem,10vw,3.8rem)}
+ .testimonial-avatar{width:52px;height:52px;flex-basis:52px}
+}
+@media(max-width:390px){
+ .trust-stat{padding-right:.35rem;padding-left:.35rem}
+ .trust-stat strong{font-size:1.05rem}
+ .trust-stat span{font-size:.57rem}
+ .manifesto-image{width:calc(100% - 1rem)}
+ .image-stamp{right:0}
+}
+
+
+/* ===== CORRECTIONS DE CONTRASTE — Ardoise & Lin Doré ===== */
+
+/* Footer sur fond Lin : textes assombris */
+.footer-brand > p {
+  color: rgba(44, 48, 50, .7);
+}
+.footer-links,
+.footer-contact {
+  color: var(--ardoise);
+}
+.footer-label {
+  color: var(--ardoise);
+}
+.footer-bottom {
+  color: rgba(44, 48, 50, .55);
+}
+
+/* Numéros et guillemets : ocre foncé pour respecter le contraste AA */
+.step-number,
+.offer-number,
+.quote-mark,
+.contact-detail-label,
+.text-link:after {
+  color: #A8894F;
+}

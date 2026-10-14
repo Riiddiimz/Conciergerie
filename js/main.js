@@ -15,7 +15,16 @@
         if (!attribute.startsWith("attr") && attribute !== "ariaLabel") continue;
         const name = attribute === "ariaLabel" ? "aria-label" : attribute.slice(4).toLowerCase();
         const value = getPath(content, path);
-        if (value !== undefined && value !== null) node.setAttribute(name, String(value));
+        if (value !== undefined && value !== null) {
+          node.setAttribute(name, String(value));
+          if (name === "src" && node.tagName === "IMG" && String(value).includes("images.unsplash.com/")) {
+            try {
+              const makeSized = (width) => { const url = new URL(String(value)); url.searchParams.set("w", String(width)); url.searchParams.set("fm", "webp"); url.searchParams.set("auto", "format"); return url.toString(); };
+              node.setAttribute("srcset", [makeSized(640)+" 640w", makeSized(1000)+" 1000w", makeSized(1600)+" 1600w"].join(", "));
+              node.setAttribute("sizes", "(max-width: 760px) 100vw, 80vw");
+            } catch (_) {}
+          }
+        }
       }
     });
     root.querySelectorAll("[data-options]").forEach((select) => {
@@ -41,7 +50,17 @@
           if (value !== undefined && value !== null) node.textContent = String(value);
         });
         fragment.querySelectorAll("[data-item-attr-src],[data-item-attr-alt]").forEach((node) => {
-          if (node.dataset.itemAttrSrc && item[node.dataset.itemAttrSrc]) node.setAttribute("src", item[node.dataset.itemAttrSrc]);
+          if (node.dataset.itemAttrSrc && item[node.dataset.itemAttrSrc]) {
+            const src = item[node.dataset.itemAttrSrc];
+            node.setAttribute("src", src);
+            if (node.tagName === "IMG" && src.includes("images.unsplash.com/")) {
+              try {
+                const makeSized = (width) => { const url = new URL(src); url.searchParams.set("w", String(width)); url.searchParams.set("fm", "webp"); url.searchParams.set("auto", "format"); return url.toString(); };
+                node.setAttribute("srcset", [makeSized(480)+" 480w", makeSized(800)+" 800w", makeSized(1200)+" 1200w"].join(", "));
+                node.setAttribute("sizes", "(max-width: 760px) 100vw, (max-width: 1050px) 50vw, 30vw");
+              } catch (_) {}
+            }
+          }
           if (node.dataset.itemAttrAlt && item[node.dataset.itemAttrAlt]) node.setAttribute("alt", item[node.dataset.itemAttrAlt]);
         });
         fragment.querySelectorAll("[data-item-list]").forEach((node) => {
